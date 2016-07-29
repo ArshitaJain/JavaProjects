@@ -6,6 +6,8 @@
 
 package Book;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Arshita Jain
@@ -92,9 +94,9 @@ public class ifelse1 extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
     if (Integer.parseInt (jTextField1.getText() ) >= 18)
-        jOptionPane.showMessageDialog(null, "You ARE ELIGIBLE to vote");
+        JOptionPane.showMessageDialog(null, "You ARE ELIGIBLE to vote");
     else
-        jOptionPane.showMessageDialog(null, "You ARE NOT ELIGIBLE to vote");// TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "You ARE NOT ELIGIBLE to vote");// TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
