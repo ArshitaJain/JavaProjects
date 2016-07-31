@@ -6,6 +6,8 @@
 
 package Book;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Arshita Jain
@@ -105,7 +107,7 @@ public class Password extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-    jOptionPane.showMessageDialog(null, jTextField1.getText() + " Logged in Demo version successfully \n" + " (Password Ignored - Will be checked later)");        // TODO add your handling code here:
+    JOptionPane.showMessageDialog(null, jTextField1.getText() + " Logged in Demo version successfully \n" + " (Password Ignored - Will be checked later)");        // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
