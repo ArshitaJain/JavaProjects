@@ -380,7 +380,7 @@ public class Calculator extends javax.swing.JFrame {
     else if (jButton14.isEnabled())
     s= n1 % n2;
             
-    jTextField1.setText(Integer.toString(s));
+   // jTextField1.setText(Integer.toString(s));
 // TODO add your handling code here:
     }//GEN-LAST:event_jButton15ActionPerformed
 
